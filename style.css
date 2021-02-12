@@ -1,0 +1,23 @@
+body {
+  background-color: grey;
+}
+.hero-image {
+  background-image: url("src/banner.jpg");
+  height: 50vh;
+  background-position: center;
+  background-size: stretch;
+  background-repeat: no-repeat;
+}
+.hero-content {
+  text-align: center;
+}
+.card {
+  background-color: rgb(19, 19, 19);
+  box-shadow: 2px 3px 15px 3px black;
+  border-radius: 1%;
+}
+.feature {
+  /* background-color: rgb(19, 19, 19); */
+  box-shadow: 2px 3px 15px 3px black;
+  border-radius: 1%;
+}
