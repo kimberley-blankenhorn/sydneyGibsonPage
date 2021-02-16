@@ -1,20 +1,56 @@
 body {
-  background-color: grey;
+  background-image: linear-gradient(
+    to right top,
+    #ac899d,
+    #a6829a,
+    #a17c98,
+    #9a7696,
+    #937094,
+    #886382,
+    #7d5771,
+    #714b61,
+    #593942,
+    #3e292a,
+    #241a18,
+    #070504
+  );
 }
+h1 {
+  font-family: "Allura", cursive;
+}
+h2,
+h3,
+h4,
+h5,
+li,
+a {
+  font-family: "Lora", serif;
+}
+p {
+  font-family: "Sorts Mill Goudy", serif;
+}
+
 .hero-image {
-  background-image: url("src/banner.jpg");
+  background-image: url("src/background3.jpg");
   height: 50vh;
   background-position: center;
-  background-size: stretch;
+  background-size: cover;
   background-repeat: no-repeat;
+  background-color: rgb(19, 19, 19);
+  box-shadow: 2px 3px 15px 3px black;
 }
 .hero-content {
   text-align: center;
 }
-.card {
+.card,
+.books,
+.feature {
   background-color: rgb(19, 19, 19);
   box-shadow: 2px 3px 15px 3px black;
   border-radius: 1%;
+}
+.books {
+  background: rgba(218, 198, 208, 0.3);
 }
 .feature {
   /* background-color: rgb(19, 19, 19); */
